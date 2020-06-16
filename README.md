@@ -1,9 +1,8 @@
-# Map My World
+# Home Service Robot
 
-This is the fourth project from Robotics Nanodegree at Udacity.
+This is the fifth project from Robotics Software Engineer Nanodegree at Udacity.
 In order to pass this project one must complete the [rubric points][Rubric Points].
 
-![RTAB-Map]
 
 ## Prerequisites
 
@@ -20,17 +19,6 @@ In order to pass this project one must complete the [rubric points][Rubric Point
   * For macOS same deal as `make`, install [Xcode] command line tools.
   * For Windows is recommended using [MinGW].
 
-## RTAB-Map Database
-
-In order to pull the `rtabmap.db` you must have `git lfs` installed.
-Then you must execute the following command.
-
-```bash
-$ git lfs pull
-```
-
-Or you can also download it from [here][RTAB-Map Database].
-
 [CMake]: https://cmake.org/install
 [Xcode]: https://developer.apple.com/xcode/features
 [Make for Windows]: http://gnuwin32.sourceforge.net/packages/make.htm
@@ -38,5 +26,3 @@ Or you can also download it from [here][RTAB-Map Database].
 [Google's C++ Style Guide]: https://google.github.io/styleguide/cppguide.html
 [Rubric Points]: docs/RubricPoints.md
 [.clang-format]: .clang-format
-[RTAB-Map]: images/rtabmap.png
-[RTAB-Map Database]: https://drive.google.com/file/d/1BmmnVC5Y_9ZWOOQqZQEuhi9o5j-2CiAN/view?usp=sharing
