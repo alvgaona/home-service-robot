@@ -36,7 +36,7 @@ The latter will send a message to the robot so it knows its two destinations,
 both pick-up point and drop-off point. 
 The former will just publish the marker so it can be seen in Rviz before the pick-up
 and after the drop-off.
-The `add_markers` node will be responsible for checking if the virtual has been picked up
+The `add_markers` node will be responsible for checking if the virtual object has been picked up
 by subscribing itself to the `/odom` topic and validating how near is to the goals.
 At the same time the environment around the robot will be mapped, the robot will be localized and
 it will know how to reach each goal by the previously mentioned stacks combined. 
@@ -45,4 +45,4 @@ it will know how to reach each goal by the previously mentioned stacks combined.
 [test_slam.sh]: ../src/scripts/test_slam.sh
 [test_navigation.sh]: ../src/scripts/test_navigation.sh
 [add_markers]: ../src/add_markers
-[pickup_objects]: ../src/pick_objects
+[pick_objects]: ../src/pick_objects
