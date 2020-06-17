@@ -3,10 +3,10 @@
 #include <ros/ros.h>
 #include <visualization_msgs/Marker.h>
 
-double pick_up_x = 5.3;
-double pick_up_y = 5.3;
-double drop_off_x = 7.5;
-double drop_off_y = -3.4;
+double pick_up_x = 3.0;
+double pick_up_y = 3.0;
+double drop_off_x = -3.0;
+double drop_off_y = 3.0;
 
 bool item_picked_up = false;
 bool item_dropped_off = false;
@@ -50,7 +50,7 @@ int main(int argc, char** argv) {
   // Set the marker type.  Initially this is CUBE, and cycles between that and SPHERE, ARROW, and CYLINDER
   marker.type = shape;
 
-  // Set the pose of the marker.  This is a full 6DOF pose relative to the frame/time specified in the header
+  // Set the pose of the marker. This is a full 6DOF pose relative to the frame/time specified in the header
   marker.pose.position.x = pick_up_x;
   marker.pose.position.y = pick_up_y;
   marker.pose.position.z = 0;

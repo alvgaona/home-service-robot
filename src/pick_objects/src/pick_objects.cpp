@@ -18,8 +18,8 @@ int main(int argc, char** argv) {
   goal.target_pose.header.frame_id = "map";
   goal.target_pose.header.stamp = ros::Time::now();
 
-  goal.target_pose.pose.position.x = 5.3;
-  goal.target_pose.pose.position.y = 5.3;
+  goal.target_pose.pose.position.x = 3.0;
+  goal.target_pose.pose.position.y = 3.0;
   goal.target_pose.pose.orientation.w = 1.0;
   
   ROS_INFO("Sending goal");
@@ -36,8 +36,8 @@ int main(int argc, char** argv) {
 
   ros::Duration(5.0).sleep();
 
-  goal.target_pose.pose.position.x = 7.5;
-  goal.target_pose.pose.position.y = -3.4;
+  goal.target_pose.pose.position.x = -3.0;
+  goal.target_pose.pose.position.y = 3.0;
   goal.target_pose.pose.orientation.w = 1.0;
   
   ROS_INFO("Sending goal");
