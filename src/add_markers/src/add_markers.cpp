@@ -3,10 +3,10 @@
 #include <ros/ros.h>
 #include <visualization_msgs/Marker.h>
 
-double pick_up_x = 3.0;
-double pick_up_y = 3.0;
-double drop_off_x = -3.0;
-double drop_off_y = 3.0;
+double pick_up_x = -4.0;
+double pick_up_y = 0.0;
+double drop_off_x = -6.0;
+double drop_off_y = 4.0;
 
 bool item_picked_up = false;
 bool item_dropped_off = false;
